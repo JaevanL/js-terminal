@@ -12,8 +12,8 @@ The terminal comes with built-in functions and constants for ease of use.
 
 ### Built-in functions
 #### help()
-Returns predefined functions and constants.  
+Returns predefined functions and constants.    
 #### unset(name, visible)
-Deletes a variable from the scope.  
+Deletes a variable from the scope.    
 Pass the variable to delete into **name**, and **visible** controls whether a confirmation message will be shown. (true to show a message, false to quietly delete)
 <img width="758" height="312" alt="image" src="https://github.com/user-attachments/assets/897c47d5-7fee-4199-b1e0-8565786bd7d2" />
