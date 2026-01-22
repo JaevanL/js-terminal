@@ -1,4 +1,4 @@
-<img width="942" height="564" alt="image" src="https://github.com/user-attachments/assets/1cbd436d-0a75-46c2-9605-7c4d5c6ffaaf" /># js-terminal
+# js-terminal
 
 A web-based javascript terminal.
 
