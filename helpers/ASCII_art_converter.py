@@ -1,4 +1,3 @@
-# ascii_replacer.py
 def replace_ascii_art():
     print("Enter your ASCII art (finish with an empty line):")
     
@@ -26,4 +25,5 @@ def replace_ascii_art():
     print(f'"{js_string}"')
 
 if __name__ == "__main__":
+
     replace_ascii_art()
