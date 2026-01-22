@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+    background: #1a1a1a;
+    line-height: 1.1lh;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+    color: #fff;
+}
+
+#terminal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px 20px;
+    background-color: #1a1a1a;
+    gap: 10px;
+}
+
+.line {
+    display: flex;
+}
+
+.prompt {
+    color: hsl(100, 100%, 82%);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.input {
+    outline: none;
+    white-space: pre;
+    flex: 1;
+}
